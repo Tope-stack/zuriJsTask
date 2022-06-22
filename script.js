@@ -14,6 +14,10 @@ function calc () {
     const res = num1 *  num2
     return alert(`The result is ${res}`)
   } 
+   else if (operation == "%") {
+    const res = num1 %  num2
+    return alert(`The result is ${res}`)
+  } 
    else if (operation == "/") {
     const res = num1 /  num2
     return alert(`The result is ${res}`)
